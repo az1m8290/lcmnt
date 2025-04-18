@@ -12,7 +12,7 @@ Use the included Makefile, or compile by hand. This was only tested with g++.
 Run `lcmnt` for a basic manual, or look at the source code to see what five entire minutes were spent on.
 
 ## BUGS
-Spiders. Ants. Beetles. Your mum. Report them with repository issues if you want. Writing this paragraph is overkill for a repository with no views.
+Overkill paragraph for a repository with no views.
 
 ## OTHERS
 Leave an issue if you find an issue. If you still don't understand what this is, just test it. If you still still don't understand, you might be 
