@@ -199,7 +199,7 @@ void cmntprint(char** argv)
  std::string fullpath = realpath(argv[1], NULL);
  std::string line;
  bool match = false;
- uint serial = 0;
+ unsigned int serial = 0;
 
  file.open("lcmntdata/data.txt", std::ios::in);
 
@@ -220,9 +220,9 @@ void cmntprint(char** argv)
 	 filecont.insert(filecont.begin(), line);
 	}
 
-	for(uint i = 0; i < filecont.size(); i++)
+	for(unsigned int i = 0; i < filecont.size(); i++)
 	{
-		for(uint g = 0; g < fullpath.length(); g++)
+		for(unsigned int g = 0; g < fullpath.length(); g++)
 		{
 		 filecont[i][g] == fullpath[g] ? match = true : match = false;
 
